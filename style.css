@@ -24,16 +24,11 @@ body {
     font-style: normal;
     min-height: 100vh;
     background-color: var(--Light-gray);
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
-    /* display: grid;
-    grid-template-columns: 2fr 1fr 2fr;
-    grid-template-rows: 2fr 4fr 2fr;
-    grid-template-areas: 
-    ". . ."
-    ". qr ."
-    ". . ."; */
+    align-items: center; */
+    display: grid;
+    place-items: center;
 }
 
 .qr-section {
